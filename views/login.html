@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mercado Liebre</title>
+        
+        
+        <link href="css/styles.css" rel="stylesheet">
+       
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+        
+        <script src="https://kit.fontawesome.com/389db06e45.js" crossorigin="anonymous"></script>
+    </head>
+
+
+<body>
+    <header>
+        <div class="logo-barra-mensaje">
+            <div class="logo">
+                <img src="img\logo-mercado-liebre.svg" alt="Logo MercadoLiebre">
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Buscar...">
+                <button>Buscar</button>
+            </div>
+            <div class="cta">
+                <p>Comprá en cuotas y sin tarjeta de crédito</p>
+            </div>
+        </div>
+        <nav class="barra-navegacion">
+            <ul>
+                <li><a href="home.html">Ofertas</a></li>
+                <li><a href="#">Tiendas Oficiales</a></li>
+                <li><a href="#">Vender</a></li>
+                <li><a href="#">Ayuda</a></li>
+                <li><a href="/views/register.html">Creá tu cuenta</a></li>
+                <li><a href="login.html">Ingresar</a></li>
+                <li><a href="#">Mis compras</a></li>
+            </ul>
+        </nav>
+        <div class="hamburger-menu">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </header>
+    
+    <div class="login-container">
+        <h1>Iniciar Sesión</h1>
+        <form action="pagina-principal.html" method="post">
+            <label for="usuario">Nombre de usuari@:</label>
+            <input type="text" id="usuario" name="usuario" required>
+
+            <label for="contrasena">Contraseña:</label>
+            <input type="password" id="contrasena" name="contrasena" required>
+
+            <input type="submit" value="Iniciar Sesión">
+        </form>
+    </div>
+</body>
+</html>
